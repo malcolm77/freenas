@@ -1,0 +1,8 @@
+### add newfile.txt to local git repo
+$ git add newfile.txt
+
+### commit the changes (adding the new file / or if you've updated files)
+$ git commit -m "added update script"
+
+### push the changes to github
+$ git push --set-upstream github master
