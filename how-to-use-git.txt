@@ -1,8 +1,29 @@
-### add newfile.txt to local git repo
+
+Create new repo and add remote repo
+
+1) create a local git repo
+$ git init
+
+2) Add all the files in the currect folder
+$ git add *
+
+3) Commit the files/changes
+$ git commit -m "first commit"
+
+4) Add the remote repo
+$ git remote add github https://github.com/malcolm77/freenas.git
+
+5) Push the local repo to the remote repo
+$ git push --set-upstream github master
+
+After adding files for making changes
+
+6) add newfile.txt to local git repo
 $ git add newfile.txt
 
-### commit the changes (adding the new file / or if you've updated files)
+7) commit the changes (adding the new file / or if you've updated files)
 $ git commit -m "added update script"
 
-### push the changes to github
+8) push the changes to github
 $ git push --set-upstream github master
+
